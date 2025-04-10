@@ -1,18 +1,27 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <link rel="stylesheet" href="style.css">
-
-  <title>Noesis App</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Noesis – Connect. Build. Grow.</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>Hello 🔥 Welcome to Noesis</h1>
-  <button onclick="sayHello()">Click Me</button>
-
-  <script>
-    function sayHello() {
-      alert('This is your first frontend app 🚀');
-    }
-  </script>
+  <div class="container">
+    <div class="left">
+      <h1>Noesis</h1>
+      <p>Connect. Build. Grow.<br>Your journey starts here.</p>
+    </div>
+    <div class="right">
+      <h2>Join Noesis Today</h2>
+      <form>
+        <input type="text" placeholder="Full Name" required />
+        <input type="email" placeholder="Email" required />
+        <input type="password" placeholder="Password" required />
+        <button type="submit">Sign Up</button>
+        <p>Already a member? <a href="#">Login</a></p>
+      </form>
+    </div>
+  </div>
 </body>
 </html>
